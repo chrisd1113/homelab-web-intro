@@ -1,0 +1,17 @@
+[Unit]
+Description=Flask Backend Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/chris/homelab-devops-intro/backend
+ExecStart=/usr/bin/python3 /home/chris/homelab-devops-intro/backend/backend.py
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+StandardOutput=journal
+StandardError=journal
+
+
+[Install]
+WantedBy=multi-user.target
