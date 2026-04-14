@@ -1,6 +1,6 @@
-# Homelab DevOps Project
+# Homelab Web Project
 
-A simple multi-VM web service built with Python Flask, demonstrating basic DevOps practices on Linux.
+A simple multi-VM web service built with Python Flask.
 
 ## Overview
 
